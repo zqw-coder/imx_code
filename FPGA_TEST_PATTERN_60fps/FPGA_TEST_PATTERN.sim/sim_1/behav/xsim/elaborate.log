@@ -1,0 +1,34 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado21_2/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_test_pattern_gen_behav xil_defaultlib.tb_test_pattern_gen xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=32.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.BUFIO
+Compiling module unisims_ver.BUFR_default
+Compiling module xil_defaultlib.clk_gen
+Compiling module xil_defaultlib.chan_par_gen
+Compiling module xil_defaultlib.par_sensor_word_gen_default
+Compiling module fifo_generator_v13_2_6.fifo_generator_v13_2_6_sync_stag...
+Compiling module fifo_generator_v13_2_6.fifo_generator_v13_2_6_sync_stag...
+Compiling module fifo_generator_v13_2_6.fifo_generator_v13_2_6_bhv_ver_a...
+Compiling module fifo_generator_v13_2_6.fifo_generator_v13_2_6_CONV_VER(...
+Compiling module fifo_generator_v13_2_6.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module xil_defaultlib.fifo_generator_0
+Compiling module unisims_ver.OSERDESE2(DATA_WIDTH=6,TRISTATE_...
+Compiling module xil_defaultlib.word_split_fifo2oserdes
+Compiling module unisims_ver.OBUFDS
+Compiling module unisims_ver.ODDR
+Compiling module xil_defaultlib.test_pattern_gen_default
+Compiling module xil_defaultlib.tb_test_pattern_gen
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_test_pattern_gen_behav

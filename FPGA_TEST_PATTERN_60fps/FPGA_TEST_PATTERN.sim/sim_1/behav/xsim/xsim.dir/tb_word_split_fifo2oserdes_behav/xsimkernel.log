@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_word_split_fifo2oserdes_behav/xsimk.exe -simmode gui -wdb tb_word_split_fifo2oserdes_behav.wdb -simrunnum 0 -socket 59835
+Design successfully loaded
+Design Loading Memory Usage: 9132 KB (Peak: 9132 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 10544 KB (Peak: 10544 KB)
+Simulation CPU Usage: 124 ms
