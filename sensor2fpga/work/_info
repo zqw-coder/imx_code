@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/IMX305/sensor2fpga
+vclk_gen
+!s110 1653276608
+!i10b 1
+!s100 O@`PYBboOS@gfDZbN077H0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ief2hQdc0V3J:UhCKk]d0W1
+R0
+w1653276607
+8c:\users\administrator\appdata\local\temp\tmp5_o30w.v
+Fc:\users\administrator\appdata\local\temp\tmp5_o30w.v
+!i122 7
+L0 23 65
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2020.4;71
+r1
+!s85 0
+31
+!s108 1653276608.000000
+!s107 c:\users\administrator\appdata\local\temp\tmp5_o30w.v|
+!s90 c:\users\administrator\appdata\local\temp\tmp5_o30w.v|
+!i113 0
+Z4 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z5 tCvgOpt 0
+vclock_drp
+!s110 1653270120
+!i10b 1
+!s100 7M]m[OT?JiCg[C_bDe:R>0
+R1
+I0=gf>czQPC<lVTo==nYLE0
+R0
+w1653270119
+8c:\users\administrator\appdata\local\temp\tmpa93cs5.v
+Fc:\users\administrator\appdata\local\temp\tmpa93cs5.v
+!i122 6
+L0 23 26
+R2
+R3
+r1
+!s85 0
+31
+!s108 1653270120.000000
+!s107 c:\users\administrator\appdata\local\temp\tmpa93cs5.v|
+!s90 c:\users\administrator\appdata\local\temp\tmpa93cs5.v|
+!i113 0
+R4
+R5
+vtest_pattern_gen
+!s110 1653319061
+!i10b 1
+!s100 ]z2G47a`P_11h1[ca^AH<2
+R1
+IKigX1>Q;l?DLWzih898c]2
+R0
+w1653319060
+8c:\users\administrator\appdata\local\temp\tmpnpia1r.v
+Fc:\users\administrator\appdata\local\temp\tmpnpia1r.v
+!i122 8
+L0 23 207
+R2
+R3
+r1
+!s85 0
+31
+!s108 1653319061.000000
+!s107 c:\users\administrator\appdata\local\temp\tmpnpia1r.v|
+!s90 c:\users\administrator\appdata\local\temp\tmpnpia1r.v|
+!i113 0
+R4
+R5
