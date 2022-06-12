@@ -1,0 +1,46 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Mon Jun 13 00:17:17 2022
+| Host         : ZQW-PC running 64-bit major release  (build 9200)
+| Command      : report_methodology -file test_pattern_gen_methodology_drc_routed.rpt -pb test_pattern_gen_methodology_drc_routed.pb -rpx test_pattern_gen_methodology_drc_routed.rpx
+| Design       : test_pattern_gen
+| Device       : xc7s6csga225-2
+| Speed File   : -2
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 2
++----------+------------------+----------------------------------------------------+------------+
+| Rule     | Severity         | Description                                        | Violations |
++----------+------------------+----------------------------------------------------+------------+
+| TIMING-2 | Critical Warning | Invalid primary clock source pin                   | 1          |
+| TIMING-4 | Critical Warning | Invalid primary clock redefinition on a clock tree | 1          |
++----------+------------------+----------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-2#1 Critical Warning
+Invalid primary clock source pin  
+A primary clock clk_gen_inst/clock_inst/inst/clk_in1 is created on an inappropriate pin clk_gen_inst/clock_inst/inst/clk_in1. It is recommended to create a primary clock only on a proper clock source (input port or primitive output pin with no timing arc)
+Related violations: <none>
+
+TIMING-4#1 Critical Warning
+Invalid primary clock redefinition on a clock tree  
+Invalid clock redefinition on a clock tree. The primary clock clk_gen_inst/clock_inst/inst/clk_in1 is defined downstream of clock inclk and overrides its insertion delay and/or waveform definition
+Related violations: <none>
+
+

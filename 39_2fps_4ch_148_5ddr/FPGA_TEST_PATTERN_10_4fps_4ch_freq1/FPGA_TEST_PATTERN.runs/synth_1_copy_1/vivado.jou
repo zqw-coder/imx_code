@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Jun 13 00:15:24 2022
+# Process ID: 13584
+# Current directory: H:/git_respo/10_4fps_1ch_148_5ddr/FPGA_TEST_PATTERN_10_4fps_4ch_freq1/FPGA_TEST_PATTERN.runs/synth_1_copy_1
+# Command line: vivado.exe -log test_pattern_gen.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source test_pattern_gen.tcl
+# Log file: H:/git_respo/10_4fps_1ch_148_5ddr/FPGA_TEST_PATTERN_10_4fps_4ch_freq1/FPGA_TEST_PATTERN.runs/synth_1_copy_1/test_pattern_gen.vds
+# Journal file: H:/git_respo/10_4fps_1ch_148_5ddr/FPGA_TEST_PATTERN_10_4fps_4ch_freq1/FPGA_TEST_PATTERN.runs/synth_1_copy_1\vivado.jou
+# Running On: ZQW-PC, OS: Windows, CPU Frequency: 3593 MHz, CPU Physical cores: 12, Host memory: 17125 MB
+#-----------------------------------------------------------
+source test_pattern_gen.tcl -notrace

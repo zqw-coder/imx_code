@@ -1,0 +1,108 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (win64) Build 3367213 Tue Oct 19 02:48:09 MDT 2021
+| Date         : Mon Jun 13 00:17:03 2022
+| Host         : ZQW-PC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file test_pattern_gen_control_sets_placed.rpt
+| Design       : test_pattern_gen
+| Device       : xc7s6
+---------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    30 |
+|    Minimum number of control sets                        |    30 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   126 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    30 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |    10 |
+| >= 12 to < 14      |    10 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             580 |          135 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              92 |           25 |
+| Yes          | No                    | No                     |              12 |            5 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             206 |           48 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|              Clock Signal              |                                                                Enable Signal                                                               |                                                                             Set/Reset Signal                                                                             | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par_sensor_word_gen_inst/par_8ch[0].chan_par_gen_inst/FSM_sequential_state1[3]_i_1_n_0                                                     |                                                                                                                                                                          |                2 |              4 |         2.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par_sensor_word_gen_inst/par_8ch[0].chan_par_gen_inst/FSM_sequential_state3[3]_i_1_n_0                                                     |                                                                                                                                                                          |                1 |              4 |         4.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par_sensor_word_gen_inst/par_8ch[0].chan_par_gen_inst/FSM_sequential_state2[3]_i_1_n_0                                                     |                                                                                                                                                                          |                2 |              4 |         2.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out4 |                                                                                                                                            |                                                                                                                                                                          |                2 |              4 |         2.00 |
+|  clk_gen_inst/BUFG_inst3_0             |                                                                                                                                            | clk_gen_inst/SR[0]                                                                                                                                                       |                1 |              6 |         6.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par_sensor_word_gen_inst/par_8ch[0].chan_par_gen_inst/chan_word_mask[11]_i_1_n_0                                                           | clk_gen_inst/SR[0]                                                                                                                                                       |                3 |              8 |         2.67 |
+|  clk_gen_inst/BUFG_inst2_0             | par2ser[6].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/E[0] | par2ser[6].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0]                                                          |                3 |             10 |         3.33 |
+|  clk_gen_inst/BUFG_inst2_0             | par2ser[3].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/E[0] | par2ser[3].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0]                                                          |                2 |             10 |         5.00 |
+|  clk_gen_inst/BUFG_inst2_0             | par2ser[0].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/E[0] | par2ser[0].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0]                                                          |                2 |             10 |         5.00 |
+|  clk_gen_inst/BUFG_inst2_0             | par2ser[1].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/E[0] | par2ser[1].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0]                                                          |                2 |             10 |         5.00 |
+|  clk_gen_inst/BUFG_inst2_0             | par2ser[7].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/E[0] | par2ser[7].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0]                                                          |                3 |             10 |         3.33 |
+|  clk_gen_inst/BUFG_inst2_0             | par2ser[5].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/E[0] | par2ser[5].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0]                                                          |                2 |             10 |         5.00 |
+|  clk_gen_inst/BUFG_inst2_0             | par2ser[4].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/E[0] | par2ser[4].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0]                                                          |                2 |             10 |         5.00 |
+|  clk_gen_inst/BUFG_inst2_0             | par2ser[2].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/E[0] | par2ser[2].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/SR[0]                                                          |                3 |             10 |         3.33 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par_sensor_word_gen_inst/par_8ch[0].chan_par_gen_inst/pix_cnt[9]_i_1_n_0                                                                   | clk_gen_inst/SR[0]                                                                                                                                                       |                3 |             10 |         3.33 |
+|  clk_gen_inst/clock_inst/inst/clk_out4 |                                                                                                                                            | par_sensor_word_gen_inst/inclk_cnt[9]_i_1_n_0                                                                                                                            |                3 |             10 |         3.33 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 |                                                                                                                                            | clk_gen_inst/SR[0]                                                                                                                                                       |                4 |             12 |         3.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par2ser[6].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/E[0] | par2ser[6].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.sckt_wr_rst_ic_reg_0 |                2 |             12 |         6.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par2ser[3].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/E[0] | par2ser[3].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.sckt_wr_rst_ic_reg_0 |                3 |             12 |         4.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par2ser[0].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/E[0] | par2ser[0].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.sckt_wr_rst_ic_reg_0 |                2 |             12 |         6.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par2ser[1].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/E[0] | par2ser[1].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.sckt_wr_rst_ic_reg_0 |                2 |             12 |         6.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par2ser[7].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/E[0] | par2ser[7].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.sckt_wr_rst_ic_reg_0 |                4 |             12 |         3.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par2ser[5].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/E[0] | par2ser[5].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.sckt_wr_rst_ic_reg_0 |                2 |             12 |         6.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par2ser[4].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/E[0] | par2ser[4].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.sckt_wr_rst_ic_reg_0 |                2 |             12 |         6.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 | par2ser[2].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/E[0] | par2ser[2].word_split_fifo2oserdes_inst/fifo_generator_0_inst/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gsckt_wrst.gic_rst.sckt_wr_rst_ic_reg_0 |                2 |             12 |         6.00 |
+|  clk_gen_inst/clock_inst/inst/clk_out4 | par_sensor_word_gen_inst/line_cnt[11]_i_1_n_0                                                                                              | clk_gen_inst/SR[0]                                                                                                                                                       |                4 |             12 |         3.00 |
+|  clk_gen_inst/oserdes_l_bufr           |                                                                                                                                            | clk_gen_inst/SR[0]                                                                                                                                                       |                3 |             16 |         5.33 |
+|  clk_gen_inst/BUFG_inst2_0             |                                                                                                                                            | clk_gen_inst/SR[0]                                                                                                                                                       |               14 |             48 |         3.43 |
+|  clk_gen_inst/BUFG_inst2_0             |                                                                                                                                            |                                                                                                                                                                          |               60 |            272 |         4.53 |
+|  clk_gen_inst/clock_inst/inst/clk_out3 |                                                                                                                                            |                                                                                                                                                                          |               73 |            316 |         4.33 |
++----------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------+----------------+--------------+
+
+

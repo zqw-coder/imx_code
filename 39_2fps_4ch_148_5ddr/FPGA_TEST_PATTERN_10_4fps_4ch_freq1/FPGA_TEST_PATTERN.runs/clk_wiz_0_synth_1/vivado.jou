@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Jun 13 00:00:00 2022
+# Process ID: 12616
+# Current directory: H:/git_respo/10_4fps_1ch_148_5ddr/FPGA_TEST_PATTERN_10_4fps_4ch_freq1/FPGA_TEST_PATTERN.runs/clk_wiz_0_synth_1
+# Command line: vivado.exe -log clk_wiz_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz_0.tcl
+# Log file: H:/git_respo/10_4fps_1ch_148_5ddr/FPGA_TEST_PATTERN_10_4fps_4ch_freq1/FPGA_TEST_PATTERN.runs/clk_wiz_0_synth_1/clk_wiz_0.vds
+# Journal file: H:/git_respo/10_4fps_1ch_148_5ddr/FPGA_TEST_PATTERN_10_4fps_4ch_freq1/FPGA_TEST_PATTERN.runs/clk_wiz_0_synth_1\vivado.jou
+# Running On: ZQW-PC, OS: Windows, CPU Frequency: 3593 MHz, CPU Physical cores: 12, Host memory: 17125 MB
+#-----------------------------------------------------------
+source clk_wiz_0.tcl -notrace
