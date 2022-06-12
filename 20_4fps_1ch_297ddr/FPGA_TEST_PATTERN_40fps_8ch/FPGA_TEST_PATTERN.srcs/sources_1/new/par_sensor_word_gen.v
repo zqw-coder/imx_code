@@ -58,9 +58,9 @@ module par_sensor_word_gen(
 
     wire [11:0] chan_word2D [7:0];
     
-//    parameter     xhs_cnt                   =       10'd416; //40fps@8ch£¬freq=0
+//    parameter     xhs_cnt                   =       10'd416; //40fps@8chï¼Œfreq=0
     
-////    parameter     xhs_cnt                   =       9'd261; //60fps@16ch£¬freq=0
+//    parameter     xhs_cnt                   =       9'd261; //60fps@16chï¼Œfreq=0
 //    parameter     xhs_low_cnt               =       9'd8;
 //    parameter     invalid1_sav_line_end     =       12'd42;
 //    parameter     color1_line_end           =       12'd61;
@@ -68,22 +68,22 @@ module par_sensor_word_gen(
 //    parameter     color2_line_end           =       12'd2229;
 //    parameter     invalid2_sav_line_end     =       12'd2230;
     
-//    parameter     xhs_cnt                   =       10'd807; //20.6fps@4ch£¬freq=0
-//    parameter     xhs_low_cnt               =       9'd8;
-//    parameter     invalid1_sav_line_end     =       12'd42;
-//    parameter     color1_line_end           =       12'd61;
-//    parameter     pix_line_end              =       12'd2221;
-//    parameter     color2_line_end           =       12'd2229;
-//    parameter     invalid2_sav_line_end     =       12'd2230;
+   parameter     xhs_cnt                   =       10'd807; //20.6fps@4chï¼Œfreq=0
+   parameter     xhs_low_cnt               =       9'd8;
+   parameter     invalid1_sav_line_end     =       12'd42;
+   parameter     color1_line_end           =       12'd61;
+   parameter     pix_line_end              =       12'd2221;
+   parameter     color2_line_end           =       12'd2229;
+   parameter     invalid2_sav_line_end     =       12'd2230;
 
 // test issues//
-    parameter     xhs_cnt                   =       10'd807;
-    parameter     xhs_low_cnt               =       9'd8;
-    parameter     invalid1_sav_line_end     =       12'd5;
-    parameter     color1_line_end           =       12'd10;
-    parameter     pix_line_end              =       12'd30;
-    parameter     color2_line_end           =       12'd35;
-    parameter     invalid2_sav_line_end     =       12'd36;
+    // parameter     xhs_cnt                   =       10'd807;
+    // parameter     xhs_low_cnt               =       9'd8;
+    // parameter     invalid1_sav_line_end     =       12'd5;
+    // parameter     color1_line_end           =       12'd10;
+    // parameter     pix_line_end              =       12'd30;
+    // parameter     color2_line_end           =       12'd35;
+    // parameter     invalid2_sav_line_end     =       12'd36;
 
     assign pix_en_mask = pix_en;
     assign invalid_sav_line_mask = invalid_sav_line;
