@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s6csga225-2" LaunchTime="1652950363">
+  <File Type="ROUTE-PWR" Name="lvds_test_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="lvds_test.tcl"/>
+  <File Type="BITSTR-MMI" Name="lvds_test.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="lvds_test_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="lvds_test_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="lvds_test_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="lvds_test_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="lvds_test_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="lvds_test_opt.dcp"/>
+  <File Type="OPT-DRC" Name="lvds_test_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="lvds_test.hwdef"/>
+  <File Type="PWROPT-DCP" Name="lvds_test_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="lvds_test_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="lvds_test_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="lvds_test_placed.dcp"/>
+  <File Type="PLACE-IO" Name="lvds_test_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="lvds_test_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="lvds_test_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="lvds_test_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="lvds_test_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="lvds_test_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="lvds_test_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="lvds_test.bin"/>
+  <File Type="PLACE-TIMING" Name="lvds_test_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="lvds_test_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="lvds_test.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="lvds_test_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="lvds_test_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="lvds_test_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="lvds_test.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="lvds_test_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="lvds_test_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="lvds_test_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="lvds_test_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="lvds_test_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="lvds_test_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="lvds_test_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="lvds_test_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="lvds_test_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="lvds_test_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="lvds_test_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="lvds_test_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="lvds_test_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="lvds_test_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="lvds_test_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="lvds_test_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="lvds_test_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="lvds_test_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="lvds_test_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="lvds_test_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="lvds_test_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="lvds_test_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="lvds_test_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="lvds_test_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="lvds_test_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="lvds_test_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="lvds_test_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="lvds_test.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="lvds_test_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="lvds_test_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="lvds_test.nky"/>
+  <File Type="BITSTR-BMM" Name="lvds_test_bd.bmm"/>
+  <File Type="PDI-FILE" Name="lvds_test.pdi"/>
+  <File Type="RCFI_FILE" Name="lvds_test.rcfi"/>
+  <File Type="CFI_FILE" Name="lvds_test.cfi"/>
+  <File Type="RNPI_FILE" Name="lvds_test.rnpi"/>
+  <File Type="NPI_FILE" Name="lvds_test.npi"/>
+  <File Type="RBD_FILE" Name="lvds_test.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="lvds_test.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="lvds_test.sysdef"/>
+  <File Type="BG-BGN" Name="lvds_test.bgn"/>
+  <File Type="BG-DRC" Name="lvds_test.drc"/>
+  <File Type="RDI-RDI" Name="lvds_test.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/lvds_test.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="lvds_test"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/lvds_test.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/lvds_test.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/lvds_test.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
